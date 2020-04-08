@@ -1,2 +1,2 @@
 # websiteopedia-react
-Websiteopedia.com in ReactJs
+Websiteopedia.com in ReactJS
