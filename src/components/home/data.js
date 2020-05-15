@@ -1,4 +1,4 @@
-export const topweb = [
+export const topWeb = [
     'google.com',
     'youtube.com',
     'facebook.com',
