@@ -28,10 +28,10 @@ function HomePage()
         <div className={classes.root}>
             <Grid container spacing={3}>
                 <Grid className={classes.item} item md={6} sx={12} >
-                    <Paper className={classes.paper}><MyList topweb={topweb} title='Top 20 Website Analyzed on Websiteopedia' /></Paper>
+                    <Paper className={classes.paper}><MyList topweb={topWeb} title='Top 20 Website Analyzed on Websiteopedia' /></Paper>
                 </Grid>
                 <Grid className={classes.item} item md={6} sx={12}>
-                    <Paper className={classes.paper}><MyList topweb={topweb} title='Recently Analyzed Websites on Websiteopedia' /></Paper>
+                    <Paper className={classes.paper}><MyList topweb={topWeb} title='Recently Analyzed Websites on Websiteopedia' /></Paper>
                 </Grid>
             </Grid>
         </div>
