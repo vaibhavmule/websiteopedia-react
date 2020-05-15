@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 import MyList from './list';
-import { topweb } from './data';
+import { topWeb } from './data';
 
 const useStyles = makeStyles((theme) => ({
     root: {
