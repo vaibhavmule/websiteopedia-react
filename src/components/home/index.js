@@ -1,10 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import { Paper, Grid } from '@material-ui/core';
 
 import MyList from './list';
-import { topweb } from './data';
+import { topWeb } from './data';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,10 +27,10 @@ function HomePage()
         <div className={classes.root}>
             <Grid container spacing={3}>
                 <Grid className={classes.item} item md={6} sx={12} >
-                    <Paper className={classes.paper}><MyList topweb={topweb} title='Top 20 Website Analyzed on Websiteopedia' /></Paper>
+                    <Paper className={classes.paper}><MyList topweb={topWeb} title='Top 20 Website Analyzed on Websiteopedia' /></Paper>
                 </Grid>
                 <Grid className={classes.item} item md={6} sx={12}>
-                    <Paper className={classes.paper}><MyList topweb={topweb} title='Recently Analyzed Websites on Websiteopedia' /></Paper>
+                    <Paper className={classes.paper}><MyList topweb={topWeb} title='Recently Analyzed Websites on Websiteopedia' /></Paper>
                 </Grid>
             </Grid>
         </div>
